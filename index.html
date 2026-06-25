@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex — Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="icon" type="image/png" href="./img/letter-a-small.svg">
+</head>
+
+<body>
+
+    <button class="mobile-nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="ti ti-menu-2"></i>
+    </button>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-profile">
+            <div class="avatar">A</div>
+            <div>
+                <div class="sidebar-name">Alex</div>
+                <div class="sidebar-role">Frontend Developer</div>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#home" class="active" data-section="home">
+                <i class="ti ti-home"></i> Home
+            </a>
+            <a href="#projects" data-section="projects">
+                <i class="ti ti-layout-grid"></i> Projects
+            </a>
+            <a href="#skills" data-section="skills">
+                <i class="ti ti-code"></i> Skills
+            </a>
+            <a href="#contact" data-section="contact">
+                <i class="ti ti-mail"></i> Contact
+            </a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="status-chip">
+                <div class="status-dot"></div>
+                <div>
+                    <div class="status-name">Alex</div>
+                    <div class="status-label">Open to work</div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+
+        <!-- HOME -->
+        <section id="home">
+            <div class="badge-available fade-in">
+                <span></span> Available for freelance
+            </div>
+
+            <h1 class="hero-title fade-in">
+                I build clean,<br>fast websites
+            </h1>
+
+            <p class="hero-desc fade-in">
+                Frontend developer specialising in pixel-perfect layouts,
+                smooth animations, and responsive interfaces — from Figma
+                to production-ready code.
+            </p>
+
+            <div class="stats-row fade-in">
+                <div class="stat">
+                    <span class="stat-num">5+</span>
+                    <span class="stat-label">Projects delivered</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-label">Responsive designs</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">Fast</span>
+                    <span class="stat-label">Turnaround</span>
+                </div>
+            </div>
+
+            <div class="tags-row fade-in">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Responsive</span>
+                <span class="tag">BEM</span>
+                <span class="tag">WordPress</span>
+                <span class="tag">Elementor</span>
+            </div>
+
+            <!-- <div class="btn-row fade-in">
+                <a href="#projects" class="btn btn-primary">View projects <i class="ti ti-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-outline">Hire me</a>
+            </div> -->
+
+            <a href="#projects" class="scroll-hint fade-in" aria-label="Scroll down">
+                <i class="ti ti-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <div class="section-eyebrow fade-in">Work</div>
+            <h2 class="section-title fade-in">Selected Projects</h2>
+
+            <div class="projects-grid">
+
+                <a class="project-card fade-in" href="https://normani7.github.io/portfolio7/pulse-project/index.html"
+                    target="_blank" rel="noopener">
+                    <div class="project-thumb">
+                        <iframe src="https://normani7.github.io/portfolio7/pulse-project/index.html"
+                            title="Pulse Fitness" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+                        <div class="thumb-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags"><span class="project-tag"></span><span
+                                class="project-tag"></span><span class="project-tag"></span></div>
+                        <div class="project-name">Pulse Fitness Center</div>
+                        <div class="project-desc">Dynamic fitness brand website with timetable, programs, and membership
+                            sections.
+                        </div>
+                        <span class="project-link">View live <i class="ti ti-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <a class="project-card fade-in" href="https://normani7.github.io/portfolio7/Chefer/index.html"
+                    target="_blank" rel="noopener">
+                    <div class="project-thumb">
+                        <iframe src="https://normani7.github.io/portfolio7/Chefer/index.html" title="Chefer"
+                            loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+                        <div class="thumb-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags"><span class="project-tag"></span><span
+                                class="project-tag"></span><span class="project-tag"></span></div>
+                        <div class="project-name">Chefer</div>
+                        <div class="project-desc">Modern restaurant or food service landing page with elegant layout.
+                        </div>
+                        <span class="project-link">View live <i class="ti ti-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <a class="project-card fade-in" href="https://normani7.github.io/portfolio7/Kanun/index.html"
+                    target="_blank" rel="noopener">
+                    <div class="project-thumb">
+                        <iframe src="https://normani7.github.io/portfolio7/Kanun/index.html" title="Kanun"
+                            loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+                        <div class="thumb-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags"><span class="project-tag"></span><span
+                                class="project-tag"></span><span class="project-tag"></span></div>
+                        <div class="project-name">Kanun</div>
+                        <div class="project-desc">Clean multi-section site with polished typography and structured
+                            content layout.
+                        </div>
+                        <span class="project-link">View live <i class="ti ti-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <a class="project-card fade-in" href="https://normani7.github.io/portfolio7/Koppee/index.html"
+                    target="_blank" rel="noopener">
+                    <div class="project-thumb">
+                        <iframe src="https://normani7.github.io/portfolio7/Koppee/index.html" title="Koppee"
+                            loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+                        <div class="thumb-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags"><span class="project-tag"></span><span
+                                class="project-tag"></span><span class="project-tag"></span></div>
+                        <div class="project-name">Koppee</div>
+                        <div class="project-desc">Coffee shop brand website with warm aesthetics and smooth scroll
+                            interactions.
+                        </div>
+                        <span class="project-link">View live <i class="ti ti-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <a class="project-card fade-in" href="https://normani7.github.io/portfolio7/wake-bake-vs/index.html"
+                    target="_blank" rel="noopener">
+                    <div class="project-thumb">
+                        <iframe src="https://normani7.github.io/portfolio7/wake-bake-vs/index.html"
+                            title="Wake & Bake VS" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+                        <div class="thumb-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags"><span class="project-tag"></span><span
+                                class="project-tag"></span><span class="project-tag"></span></div>
+                        <div class="project-name">Wake & Bake Off</div>
+                        <div class="project-desc">Bakery-themed landing page with vibrant design and product showcase
+                            sections.
+                        </div>
+                        <span class="project-link">View live <i class="ti ti-arrow-right"></i></span>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <div class="section-eyebrow fade-in">Expertise</div>
+            <h2 class="section-title fade-in">My Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M4 3l1.5 16.5L12 21l6.5-1.5L20 3H4z" />
+                            <path d="M16 8H8l.5 4h7l-.5 5-3 1-3-1-.2-2.5" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">HTML5</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M4 3l1.5 16.5L12 21l6.5-1.5L20 3H4z" />
+                            <path d="M16 8H8l.2 3h7.6l-.6 6-3.2 1-3.2-1-.2-2.5h2l.1 1.2 1.3.3 1.3-.3.2-2.2H8.4" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">CSS3</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:92%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M3 3h18v18H3z" />
+                            <path d="M8 17v-6m4 6v-3m4 3v-9" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:82%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5z" />
+                            <path d="M9 17l3-10 3 10M9.5 14h5" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">Figma</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <rect x="3" y="3" width="18" height="18" rx="2" />
+                            <path d="M3 9h18M9 21V9" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">Responsive</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M6 6l6-3 6 3v6l-6 3-6-3V6z" />
+                            <path d="M12 9v6m-6-3l6 3 6-3" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">BEM</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:88%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M12 3c3 2 5 5 5 9s-2 7-5 9m0-18c-3 2-5 5-5 9s2 7 5 9M3 12h18" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">WordPress</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <rect x="2" y="3" width="20" height="18" rx="2" />
+                            <path d="M2 9h20M8 3v6M8 14h4m-4 3h8" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">Elementor</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M9.5 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9.5L14.5 3H9.5z" />
+                            <polyline points="14 3 14 10 21 10" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">Sass / SCSS</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:78%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                            <path d="M4 7V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2M12 12h.01" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">Cross-browser</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                        </svg>
+                    </div>
+                    <span class="skill-name">Performance</span>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width:82%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="section-eyebrow fade-in">Get in touch</div>
+            <h2 class="section-title fade-in">Let's work together</h2>
+
+            <div class="contact-grid">
+                <div>
+                    <p class="contact-intro fade-in">
+                        Have a project in mind or want to discuss an opportunity?
+                        I'm always open to new collaborations and interesting challenges.
+                    </p>
+
+                    <div class="contact-links">
+
+                        <a href="https://www.fiverr.com/sellers/norweg217/edit" class="contact-link fade-in" target="_blank" rel="noopener">
+                            <i class="ti ti-brand-fiverr"></i>
+                            <div>
+                                <div style="font-weight:500">Fiverr</div>
+                                <div style="font-size:13px;color:var(--text2)">@Alex</div>
+                            </div>
+                            <i class="ti ti-arrow-right" style="margin-left:auto;color:var(--text2)"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <div class="contact-form fade-in">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Your name</label>
+                        <input class="form-input" type="text" id="name" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email address</label>
+                        <input class="form-input" type="email" id="email" placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea class="form-textarea" id="message"
+                            placeholder="Tell me about your project…"></textarea>
+                    </div>
+                    <button class="btn-send" onclick="handleSend()">
+                        Send message <i class="ti ti-send"></i>
+                    </button>
+                    <div id="form-feedback" style="font-size:14px;color:var(--accent);display:none;margin-top:8px;">
+                        ✓ Message sent! I'll get back to you soon.
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
